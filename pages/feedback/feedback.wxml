@@ -1,0 +1,9 @@
+<!--pages/feedback/feedback.wxml-->
+<view class='feedback_container'>
+  <!-- <scroll-view> -->
+    <label class='feedback_title'>提出您的宝贵意见</label>
+    <textarea placeholder="" auto-focus maxlength="1000" bindinput="onInput"></textarea>
+    <text class='feedback_limit'>{{feedbackContent.length}}/1000</text>
+    <button type="primary" bindtap='onSubmit'>提交</button>
+  <!-- </scroll-view> -->
+</view>

@@ -1,0 +1,26 @@
+/* pages/feedback/feedback.wxss */
+
+.feedback_container {
+  margin: 30rpx;
+}
+
+textarea {
+  width: 640rpx;
+  padding: 25rpx;
+  height: 350rpx;
+  background: white;
+  margin-top: 10rpx;
+}
+
+.feedback_title {
+  font-size: 28rpx;
+  color: #999999;
+}
+
+.feedback_limit {
+  text-align: right;
+  font-size: 28rpx;
+  color: #999999;
+  width: 690rpx;
+  display: block;
+}

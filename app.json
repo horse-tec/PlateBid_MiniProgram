@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/combo/combo",
+    "pages/about/about",
+    "pages/help/help",
+    "pages/feedback/feedback",
+    "pages/myLicense/my_license"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PlateBid",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "mine"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/combo/combo",
+        "text": "combo"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+/* pages/help/help.wxss */
+.help_container {
+  margin: 30rpx;
+}
+.qa_item_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30rpx;
+}
+
+.qa_q {
+  color: #333;
+}
+
+.qa_a {
+  color: #4f5555;
+}

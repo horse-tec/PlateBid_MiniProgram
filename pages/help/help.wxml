@@ -1,0 +1,28 @@
+<!--pages/help/help.wxml-->
+<template name="qanda">
+  <view class='qa_item_container'>
+    <text class='qa_q'>1. 空间足够的时候，我的宽度是200px如果空间?</text>
+    <text class='qa_a'>空间足够的时候，我的宽度是200</text>
+  </view>
+</template>
+
+<view class='container help_container'>
+  <scroll-view>
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+    <template is="qanda" />
+  </scroll-view>
+</view>

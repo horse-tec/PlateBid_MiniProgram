@@ -1,0 +1,27 @@
+<template name="mine_list_item">
+  <view bindtap="{{tapName}}" class="mine_list_item_container">
+    <text>{{label}}</text>
+  </view>
+</template>
+
+<scroll-view>
+  <view class='container'>
+    <view class='mine_header'>
+      <image class='mine_avatar' src="http://172.23.33.3:8085/rp"></image>
+      <text>{{userInfo.nickName}}</text>
+    </view>
+
+    <view class='mine_op_list'>
+      <template is="mine_list_item" data="{{label: '我的标书', tapName: 'onClickMyLicense'}}" />
+      <template is="mine_list_item" data="{{label: '我的订单', tapName: 'onClickMyOrder'}}" />
+      <template is="mine_list_item" data="{{label: '赔付账户', tapName: 'onClickMyAccount'}}" />
+    </view>
+
+    <view class='mine_op_list'>
+      <template is="mine_list_item" data="{{label: '关于我们', tapName: 'onClickAboutUs'}}" />
+      <template is="mine_list_item" data="{{label: '意见反馈', tapName: 'onClickFeedback'}}" />
+      <template is="mine_list_item" data="{{label: '帮助中心', tapName: 'onClickHelp'}}" />
+    </view>
+
+  </view>
+</scroll-view>
